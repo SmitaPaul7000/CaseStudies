@@ -1,0 +1,19 @@
+Generating a description of an image is called image captioning. 
+Image captioning requires to recognize the important objects, their attributes and their relationships in an image. Generate syntactically and semantically correct sentences. 
+
+Deep learning-based techniques are capable of handling the complexities and challenges of image captioning. 
+In this survey paper, we aim to present a comprehensive review of existing deep learning-based image captioning techniques.
+
+We discuss the foundation of the techniques to analyze their performances, strengths and limitations. We also discuss the datasets and the evaluation metrics popularly used in deep learning based automatic image captioning.
+
+These sources contain images that viewers would have to interpret themselves. Most images do not have a description, but the human can largely understand them without their detailed captions. However, machine needs to interpret some form of image captions if humans need automatic image captions from it.
+
+Image captioning used for automatic image indexing. Image indexing is important for Content-Based Image Retrieval (CBIR) and therefore, it can be applied to many areas, 
+** including biomedicine, commerce, the military, education, digital libraries, and web searching. Social media platforms such as Facebook and Twitter can directly generate descriptions from images. The descriptions can include where we are (e.g., beach, cafe), what we wear and importantly what we are doing there.
+
+Understanding an image largely depends on obtaining image features. The techniques used for
+this purpose can be broadly divided into two categories: (1) Traditional machine learning based
+techniques and (2) Deep machine learning based techniques. In traditional machine learning, hand crafted features such
+
+URL:
+https://medium.com/mlreview/multi-modal-methods-image-captioning-from-translation-to-attention-895b6444256e
