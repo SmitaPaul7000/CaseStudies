@@ -13,3 +13,6 @@ https://machinelearningmastery.com/develop-a-deep-learning-caption-generation-mo
 https://medium.com/@raman.shinde15/image-captioning-with-flickr8k-dataset-bleu-4bcba0b52926
 https://github.com/pxu4114/Image-captioning
 https://www.kaggle.com/hsankesara/image-captioning
+
+Code -- COCo
+https://github.com/tensorflow/docs/blob/master/site/en/tutorials/text/image_captioning.ipynb
