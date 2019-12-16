@@ -16,3 +16,6 @@ https://www.kaggle.com/hsankesara/image-captioning
 
 Code -- COCo
 https://github.com/tensorflow/docs/blob/master/site/en/tutorials/text/image_captioning.ipynb
+
+Download dataset from here
+https://github.com/jeffheaton/t81_558_deep_learning/blob/master/t81_558_class_10_4_captioning.ipynb
