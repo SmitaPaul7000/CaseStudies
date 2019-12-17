@@ -20,12 +20,63 @@ https://github.com/tensorflow/docs/blob/master/site/en/tutorials/text/image_capt
 Download dataset from here
 https://github.com/jeffheaton/t81_558_deep_learning/blob/master/t81_558_class_10_4_captioning.ipynb
 
+-----------------------------------------------------
+Capstone Project Ideas
+
+1.	Image captioning
+
+Image captioning involves the task of generating language descriptions of visual content, like image or videos.
+Image captioning is to understand objects in images, relate to one another and translating it all into natural-sounding language.
+Accurately describing a complex scene requires a deeper representation of what’s going on in the scene, capturing how the various objects relate to one another and translating it all into natural-sounding language.
+Accurate image captioning is a challenging task that requires advancing the state of the art of both computer vision and natural language processing.
+
+This kind of system could eventually help 
+o	visually impaired people understand pictures, 
+o	Provide alternate text for images in parts of the world where mobile connections are slow, and make it easier for everyone to search on Google for images.
+o	Semantic image search
+o	Bering visual intelligence to chat board
+o	Help visually impaired people to see world around them
+Reference for datasets:
+http://cocodataset.org/#explore
+https://www.flickr.com/photos/tags/dataset/
+http://academictorrents.com/details/9dea07ba660a722ae1008c4c8afdd303b6f6e53b
+
+2.	Toxicity classification by BERT
+To understand toxic conversational attributes, in comments text form
+Each comment in Train dataset has a toxicity label (target), and models should predict the target toxicity for the Test data. 
+This attribute (and all others) are fractional values which represent the fraction of human raters who believed the attribute applied to the given comment. 
+For evaluation, test set examples with target >= 0.5 will be considered to be in the positive class (toxic).
+The data also has several additional toxicity subtype attributes. Models do not need to predict these attributes for the competition, they are included as an additional avenue for research. Subtype attributes are:
+•	severe_toxicity , obscene, threat, insult, identity_attack, sexual_explicit
+Reference for dataset:
+https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification/data
+
+3.	Speech recognition  
+Voice-to-text is a type of speech recognition program that converts spoken to written language. 
+This type of speech recognition software is extremely valuable to anyone who needs to generate a lot of written content without a lot of manual typing. 
+It is also useful for people with disabilities, like the hearing impaired. That make it difficult for them to use a keyboard.
+
+e.g Medical Speech, Transcription, and Intent
+This data contains thousands of audio utterances for common medical symptoms like “knee pain” or “headache,” totaling more than 8 hours in aggregate. Each utterance was created by individual human contributors based on a given symptom. These audio snippets can be used to train conversational agents in the medical field.
+This Figure Eight dataset was created via a multi-job workflow. The first involved contributors writing text phrases to describe symptoms given. For example, for “headache,” a contributor might write “I need help with my migraines.” Subsequent jobs captured audio utterances for accepted text strings.
+Note that some of the labels are incorrect and some of the audio files have poor quality. I would recommend cleaning the dataset before training any machine learning models.
+This dataset contains both the audio utterances and corresponding transcriptions.
+Reference for dataset:
+https://www.kaggle.com/paultimothymooney/medical-speech-transcription-and-intent
+https://www.kaggle.com/c/tensorflow-speech-recognition-challenge/data
+
+
 
 ------------------------------------------------------
 Domain Background:
 Image captioning is the process by which names or description is automatically assigns to digital image. 
 Objective is to capture objects contained in an image, and also express how these objects relate to each other as well as their attributes and the activities they are involved in
-This kind of system could eventually help visually impaired people understand pictures, provide alternate text for images in parts of the world where mobile connections are slow, and make it easier for everyone to search on Google for images.
+This kind of system could eventually help 
+o	visually impaired people understand pictures, 
+o	Provide alternate text for images in parts of the world where mobile connections are slow, and make it easier for everyone to search on Google for images.
+o	Semantic image search
+o	Bering visual intelligence to chat board
+o	Help visually impaired people to see world around them
 The web is filled with billions of images, helping to entertain and inform the world on a countless variety of subjects. However, much of that visual information is not accessible to those with visual impairments, or with slow internet speeds that prohibit the loading of images. 
 Problem Statement:
 Image captioning involves the task of generating natural language descriptions of visual content with the use of datasets comprising of image-caption pairs
@@ -50,31 +101,34 @@ a.	comprised of more than 8,000 photos and up to 5 captions for each photo.
 b.	build models on your workstation using a CPU.
 4.	Flickr30k
 5.	SBU
+6.	Adobe_MIT FiveK, contains random images from Intagram 
 
 Solution Statements:
+Automatically describing the content of an image is a fundamental problem in artificial intelligence that connects computer vision and natural language processing.
 
-Benchmark Model:
-xx
+There are 2 leading approaches :
+One stream takes end to end , encoder decoder framework adopted from machine translation.
+Use CNN to extract high level images features and fed them into LSTM for caption generation. Thi went one step further by introducing attention mechanism. 
+
+Second stream applies compositional framework, it divides captions generation into several parts: word detector by a CNN, caption candidates generation by a maximum entropy model and sentence re-ranking by deep multimodel semantic model.
+
+The main component include
+•	Vision model using deep residual network – deep residual network(ResNets)
+•	Language and semantic ranking model 
+o	Use of LSTM / GRU for caption generation
+o	use MELM + DMSM, MELM(maximum entropy language model) together with a deep multimodel similarity model(DMSM) 
+o	use MELM + GRNN 
+
+•	An entities recognition model that identifies celebrities and landmarks
+•	A classifier for estimating the confidence score for each output caption
+•	
+
 Evaluation Matrix
-Xx
+
+Metrics such as BLUE, METEOR and CIDEr are handy for fast development and tuning 
 BLEU score [38], which is a form of precision of word n-grams between generated and reference sentences
 BLEU score [38], which is a form of precision of word n-grams between generated and reference sentences
 
-This method can be regarded as a type of multi-class image classification with a very large number of classes - as large as the vocabulary size. Typically, image analysis in the form of extracted feature vectors and the training annotation words are used by machine learning techniques to attempt to automatically apply annotations to new images. The first methods learned the correlations between image features and training annotations, then techniques were developed using machine translation to try to translate the textual vocabulary with the 'visual vocabulary', or clustered regions known as blobs. Work following these efforts have included classification approaches, relevance models and so on.
-The advantages of automatic image annotation versus content-based image retrieval (CBIR) are that queries can be more naturally specified by the user.[1] CBIR generally (at present) requires users to search by image concepts such as color and texture, or finding example queries. Certain image features in example images may override the concept that the user is really focusing on. The traditional methods of image retrieval such as those used by libraries have relied on manually annotated images, which is expensive and time-consuming, especially given the large and constantly growing image databases in existence.
-Some annotation engines are online, including the ALIPR.com real-time tagging engine developed by Pennsylvania State University researchers, and Behold. Companies such as Canotic.com, Playment, Edgecase.ai, Microsoft VOTT.ai and dataloop.ai have all built automatic engines for video annotation. Additional companies such as Alegion.com, Infolks, DataPure.co, Scaleapi.com, Diffgram.com, Figure-eight.com offer a mix of automatic image annotation with a mix of manual overview when automation fails.
-
-we’ve developed a machine-learning system that can automatically produce captions (like the three above) to accurately describe images the first time it sees them. This kind of system could eventually help visually impaired people understand pictures, provide alternate text for images in parts of the world where mobile connections are slow, and make it easier for everyone to search on Google for images.
-
-B EING able to automatically describe the content of an image using properly formed English sentences is a very challenging task, but it could have great impact, for instance by helping visually impaired people better understand the content of images on the web. This task is significantly harder, for example, than the well-studied image classification or object recognition tasks, which have been a main focus in the computer vision community [1]. Indeed, a description must capture not only the objects contained in an image, but it also must express how these objects relate to each other as well as their attributes and the activities they are involved in. Moreover, the above semantic knowledge has to be expressed in a natural language like English, which means that a language model is needed in addition to visual understanding. Most previous at
-•	Provision of captions to reduce the number of user operations (keying and selection) required to post a movie or image to improve posting volume of sticky media and therefore improve the position of a web site or page in terms of human interest
-•	Provision of captions to provide HTML header and alt attribute content to improve search engine scoring of page for search terms related to the content of the movie or image
-•	Testing to see if the content of an image submitted for posting matches the criteria intended by the owner or stake holder for the posting space on the basis of caption rather than directly through CNN categorization
-
-Problem Statement:
-Dataset and input
-Solution Statements:
-Benchmark Model:
-Evaluation Matrix
 Reference:
 https://ai.google.com/research/ConceptualCaptions
+
