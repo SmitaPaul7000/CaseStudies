@@ -135,3 +135,5 @@ https://ai.google.com/research/ConceptualCaptions
 --------------
 https://towardsdatascience.com/explaining-feature-importance-by-example-of-a-random-forest-d9166011959e
 https://towardsdatascience.com/feature-engineering-for-machine-learning-3a5e293a5114
+https://www.kaggle.com/nextbigwhat/eda-for-categorical-variables-a-beginner-s-way
+https://towardsdatascience.com/exploratory-data-analysis-categorical-data-part-ii-5de835850f0f
