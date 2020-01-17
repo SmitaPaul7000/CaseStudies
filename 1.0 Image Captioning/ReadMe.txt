@@ -1,3 +1,7 @@
+17/1/2020
+https://towardsdatascience.com/image-captioning-with-keras-teaching-computers-to-describe-pictures-c88a46a311b8
+https://github.com/yashk2810/Image-Captioning/blob/master/Image%20Captioning%20InceptionV3.ipynb
+
 8/12/2019
 https://ai.stackexchange.com/questions/10114/whats-the-commercial-usage-of-image-captioning
 https://towardsdatascience.com/jupyterlab-you-should-try-this-data-science-ui-for-jupyter-right-now-a799f8914bb3
