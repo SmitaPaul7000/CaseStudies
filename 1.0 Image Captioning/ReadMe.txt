@@ -1,3 +1,14 @@
+24/1/2020
+InceptionV3
+https://github.com/hlamba28/Automatic-Image-Captioning/blob/master/Automatic%20Image%20Captioning.ipynb
+
+data processing
+https://github.com/salkhan23/stat_946_project/blob/ae0c2d3043ae3cfa1f5f18a21e6a39fd44dde850/flickr_datasets.py
+https://github.com/nitinkaushik01/Deep_and_Machine_Learning_Projects/blob/master/Image_Caption_Project/Image_caption_Project.ipynb
+
+https://github.com/yashk2810/Image-Captioning/blob/master/Image%20Captioning%20InceptionV3.ipynb
+https://towardsdatascience.com/step-by-step-vgg16-implementation-in-keras-for-beginners-a833c686ae6c
+
 17/1/2020
 https://towardsdatascience.com/image-captioning-with-keras-teaching-computers-to-describe-pictures-c88a46a311b8
 https://github.com/yashk2810/Image-Captioning/blob/master/Image%20Captioning%20InceptionV3.ipynb
