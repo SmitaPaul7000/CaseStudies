@@ -1,12 +1,3 @@
-Suma is wonderful mentor cum friend. She helped me all ways in job finding. 
-
-Majoriy she help me in resume biulding and networking. She also helped me to cover my 2 yr gap in my carrer. 
-Apart from it she help me in cracking Managerial and HR interviews, how to face it , how to answer.
-
-There were time when i got rejected at very last stage of interview, she boost my confidence so i sayrted again to give interviews.
-Suma, I will always be grateful to you for your support and kindness.
-
-Thanks
 
 
 24/1/2020
