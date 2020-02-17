@@ -1,3 +1,5 @@
+https://colab.research.google.com/drive/18QcPn9POEsb-8H9XuVbqBml2MEn4VAX2#scrollTo=AkC634deCDoe
+run epochs 100
 
 
 24/1/2020
