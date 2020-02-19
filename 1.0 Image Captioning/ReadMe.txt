@@ -1,3 +1,8 @@
+
+
+https://fairyonice.github.io/Develop_an_image_captioning_deep_learning_model_using_Flickr_8K_data.html
+
+------------------------------------------------------------------------------------------------------------
 https://colab.research.google.com/drive/18QcPn9POEsb-8H9XuVbqBml2MEn4VAX2#scrollTo=AkC634deCDoe
 run epochs 100
 
