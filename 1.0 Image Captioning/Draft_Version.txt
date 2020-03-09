@@ -17,3 +17,7 @@ techniques and (2) Deep machine learning based techniques. In traditional machin
 
 URL:
 https://medium.com/mlreview/multi-modal-methods-image-captioning-from-translation-to-attention-895b6444256e
+
+
+Feed the image into a Convolutional Neural Network (CNN) for encoding, and run this encoding into a decoder Recurrent Neural Network (RNN) to generate an output sentence. The network backpropagates based on the error of the output sentence compared with the ground truth sentence calculated by a loss function like cross entropy/maximum likelihood. Finally, one can use a sentence similarity evaluation metric to evaluate the algorithm.
+
