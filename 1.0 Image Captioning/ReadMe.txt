@@ -5,7 +5,7 @@ https://docs.google.com/presentation/d/1fIhGikFPnb7G5kr58OvYC3GN4io7MznnM0aAgadv
 https://docs.google.com/presentation/d/1fIhGikFPnb7G5kr58OvYC3GN4io7MznnM0aAgadvJfc/preview?pru=AAABaz2o8Jk*rdDLH7fXP7h4HQFLtzvHNQ&slide=id.g5888218f39_64_63
 https://colab.research.google.com/drive/1iDHCYIrWswIKp-n-pOg69xLoZO09MEgf#scrollTo=TYvQCKKWKOtM
 
-
+https://medium.com/mlreview/multi-modal-methods-image-captioning-from-translation-to-attention-895b6444256e
 -----------------------------------------------------------------------------------------------------------
 https://fairyonice.github.io/Develop_an_image_captioning_deep_learning_model_using_Flickr_8K_data.html
 
