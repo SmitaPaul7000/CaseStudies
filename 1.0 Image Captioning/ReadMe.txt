@@ -1,4 +1,5 @@
 https://github.com/huggingface/transformers
+https://cs.stanford.edu/people/karpathy/sfmltalk.pdf
 --------------------------------------------------------------------------------------------------------
 PPT:
 https://docs.google.com/presentation/d/1fIhGikFPnb7G5kr58OvYC3GN4io7MznnM0aAgadvJfc/edit?ts=5c8d09e7#slide=id.g5888218f39_61_613
