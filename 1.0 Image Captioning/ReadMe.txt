@@ -1,6 +1,12 @@
+https://github.com/huggingface/transformers
+--------------------------------------------------------------------------------------------------------
 PPT:
 https://docs.google.com/presentation/d/1fIhGikFPnb7G5kr58OvYC3GN4io7MznnM0aAgadvJfc/edit?ts=5c8d09e7#slide=id.g5888218f39_61_613
+https://docs.google.com/presentation/d/1fIhGikFPnb7G5kr58OvYC3GN4io7MznnM0aAgadvJfc/preview?pru=AAABaz2o8Jk*rdDLH7fXP7h4HQFLtzvHNQ&slide=id.g5888218f39_64_63
+https://colab.research.google.com/drive/1iDHCYIrWswIKp-n-pOg69xLoZO09MEgf#scrollTo=TYvQCKKWKOtM
 
+
+-----------------------------------------------------------------------------------------------------------
 https://fairyonice.github.io/Develop_an_image_captioning_deep_learning_model_using_Flickr_8K_data.html
 
 ------------------------------------------------------------------------------------------------------------
