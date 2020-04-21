@@ -1,0 +1,1 @@
+https://github.com/uhauha2929/Transformers/blob/c10227aecac8e9d2f3aef54e2f497cdd6ac2fd88/bert_classification.ipynb
