@@ -1,1 +1,18 @@
-https://github.com/uhauha2929/Transformers/blob/c10227aecac8e9d2f3aef54e2f497cdd6ac2fd88/bert_classification.ipynb
+https://github.com/uhauha2929/Transformers/blob/c10227aecac8e9d2f3aef54e2f497cdd6ac2fd88/bert_classification.ipynb  ***
+https://github.com/Anyesh/ne-sentiment/blob/5e4446a7965cd6bef90a18c03409d1adc07f0573/preprocessing.py
+
+https://github.com/Anyesh/ne-sentiment/tree/5e4446a7965cd6bef90a18c03409d1adc07f0573
+https://github.com/jeffreyscheng/senior-thesis-translation/tree/6e9352d22a372d8e54a6fd346cf5c865879b7342
+
+
+https://github.com/carcrupe/data_science_projects/blob/f0029d0faa614e967d2abb7ae13c4b3f848c93bd/kaggle_competitions/tweet_disaster_prediction/twitter_disaster_predictions.ipynb
+
+https://github.com/JRasmusBm/chatbot-epsilon/blob/1576c086a2b645657a98eec4909b744f301deb81/src/sentiment/sentiment.py
+
+https://github.com/JRasmusBm/chatbot-epsilon/blob/1576c086a2b645657a98eec4909b744f301deb81/src/exploration/bert.ipynb
+
+https://github.com/scyyy/NLP-national-image-analysis/blob/02dfa41b25ece2c90a1d05570c805a60a7273c28/analysis/Bert_for_sentiment.ipynb
+
+https://github.com/scyyy/NLP-national-image-analysis/blob/02dfa41b25ece2c90a1d05570c805a60a7273c28/analysis/Bert_for_sentiment.ipynb
+
+https://github.com/search?l=Jupyter+Notebook&p=7&q=bertgrusentiment&type=Code
