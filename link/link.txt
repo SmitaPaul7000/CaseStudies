@@ -16,3 +16,129 @@ https://github.com/scyyy/NLP-national-image-analysis/blob/02dfa41b25ece2c90a1d05
 https://github.com/scyyy/NLP-national-image-analysis/blob/02dfa41b25ece2c90a1d05570c805a60a7273c28/analysis/Bert_for_sentiment.ipynb
 
 https://github.com/search?l=Jupyter+Notebook&p=7&q=bertgrusentiment&type=Code
+
+
+
+
+
+Epoch 21 Batch 0 Loss 0.4397
+Epoch 21 Batch 100 Loss 0.4292
+Epoch 21 Batch 200 Loss 0.3877
+Epoch 21 Loss 0.406852
+Time taken for 1 epoch 175.39963054656982 sec
+
+Epoch 22 Batch 0 Loss 0.4296
+Epoch 22 Batch 100 Loss 0.4048
+Epoch 22 Batch 200 Loss 0.3628
+Epoch 22 Loss 0.391378
+Time taken for 1 epoch 154.44685435295105 sec
+
+Epoch 23 Batch 0 Loss 0.4181
+Epoch 23 Batch 100 Loss 0.3775
+Epoch 23 Batch 200 Loss 0.3741
+Epoch 23 Loss 0.373883
+Time taken for 1 epoch 146.2883734703064 sec
+
+Epoch 24 Batch 0 Loss 0.3943
+Epoch 24 Batch 100 Loss 0.3251
+Epoch 24 Batch 200 Loss 0.3528
+Epoch 24 Loss 0.360422
+Time taken for 1 epoch 140.53261256217957 sec
+
+Epoch 25 Batch 0 Loss 0.3637
+Epoch 25 Batch 100 Loss 0.3826
+Epoch 25 Batch 200 Loss 0.3191
+Epoch 25 Loss 0.348919
+Time taken for 1 epoch 139.5792691707611 sec
+
+CPU times: user 6min 10s, sys: 2min 4s, total: 8min 15s
+
+0.406852, 0.391378, 0.373883, 0.360422, 0.348919
+
+
+Epoch 27 Batch 0 Loss 0.3425
+Epoch 27 Batch 100 Loss 0.2863
+Epoch 27 Batch 200 Loss 0.3000
+Epoch 27 Loss 0.322763
+Time taken for 1 epoch 151.79913592338562 sec
+
+Epoch 28 Batch 0 Loss 0.3479
+Epoch 28 Batch 100 Loss 0.3096
+Epoch 28 Batch 200 Loss 0.3114
+Epoch 28 Loss 0.311039
+Time taken for 1 epoch 130.63511490821838 sec
+
+Epoch 29 Batch 0 Loss 0.3473
+Epoch 29 Batch 100 Loss 0.3047
+Epoch 29 Batch 200 Loss 0.3029
+Epoch 29 Loss 0.299784
+Time taken for 1 epoch 132.30166840553284 sec
+
+Epoch 30 Batch 0 Loss 0.3453
+Epoch 30 Batch 100 Loss 0.2820
+Epoch 30 Batch 200 Loss 0.2581
+Epoch 30 Loss 0.289133
+Time taken for 1 epoch 131.86838936805725 sec
+
+Epoch 31 Batch 0 Loss 0.3617
+Epoch 31 Batch 100 Loss 0.2656
+Epoch 31 Batch 200 Loss 0.2660
+Epoch 31 Loss 0.279971
+Time taken for 1 epoch 132.30112099647522 sec
+
+Epoch 32 Batch 0 Loss 0.3489
+Epoch 32 Batch 100 Loss 0.2691
+Epoch 32 Batch 200 Loss 0.2607
+Epoch 32 Loss 0.269967
+Time taken for 1 epoch 132.02634263038635 sec
+
+Epoch 33 Batch 0 Loss 0.3135
+Epoch 33 Batch 100 Loss 0.2988
+Epoch 33 Batch 200 Loss 0.2666
+Epoch 33 Loss 0.261362
+Time taken for 1 epoch 131.9675841331482 sec
+
+Epoch 34 Batch 0 Loss 0.2970
+Epoch 34 Batch 100 Loss 0.2611
+Epoch 34 Batch 200 Loss 0.2297
+Epoch 34 Loss 0.253787
+Time taken for 1 epoch 131.1346447467804 sec
+
+Epoch 35 Batch 0 Loss 0.2982
+Epoch 35 Batch 100 Loss 0.2747
+Epoch 35 Batch 200 Loss 0.2305
+Epoch 35 Loss 0.246639
+Time taken for 1 epoch 131.5282735824585 sec
+
+Epoch 36 Batch 0 Loss 0.2885
+Epoch 36 Batch 100 Loss 0.2312
+Epoch 36 Batch 200 Loss 0.2311
+Epoch 36 Loss 0.240900
+Time taken for 1 epoch 133.7470817565918 sec
+
+Epoch 37 Batch 0 Loss 0.2767
+Epoch 37 Batch 100 Loss 0.2445
+Epoch 37 Batch 200 Loss 0.2353
+Epoch 37 Loss 0.235624
+Time taken for 1 epoch 133.20600247383118 sec
+
+Epoch 38 Batch 0 Loss 0.2841
+Epoch 38 Batch 100 Loss 0.2289
+Epoch 38 Batch 200 Loss 0.1987
+Epoch 38 Loss 0.225423
+Time taken for 1 epoch 132.59670996665955 sec
+
+Epoch 39 Batch 0 Loss 0.2871
+Epoch 39 Batch 100 Loss 0.2201
+Epoch 39 Batch 200 Loss 0.2263
+Epoch 39 Loss 0.216500
+Time taken for 1 epoch 130.89629793167114 sec
+
+Epoch 40 Batch 0 Loss 0.2807
+Epoch 40 Batch 100 Loss 0.2114
+Epoch 40 Batch 200 Loss 0.2075
+Epoch 40 Loss 0.211199
+Time taken for 1 epoch 130.8215367794037 sec
+
+CPU times: user 16min 9s, sys: 4min 58s, total: 21min 7s
+Wall time: 31min 6s
